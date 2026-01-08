@@ -8,3 +8,53 @@ body {
    font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
 }
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:15px;
+}
+/* header-section */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    /* background-color: tomato;   */
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color:#000000;
+    font-weight: 500;
+}
+nav li a:hover {
+    color: #469165;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color:#469165;
+    padding: 15px 50px;
+    font-size: 14px;
+    gap: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color:#3a7a55;
+}

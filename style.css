@@ -7,6 +7,7 @@
 body {
    font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
+   background-color: #FFFFFF;
 }
 
 
@@ -115,6 +116,7 @@ nav li a:hover {
     background-color: #80c8a0;
 }
 .info-arrow {
+    
     background-color:  #469165;
     border-radius: 50px;
 }

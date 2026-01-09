@@ -123,12 +123,12 @@ nav li a:hover {
     align-items: center;
     gap: 10px;
     color: #FFFFFF;
-    background-color:#469165 ;
+    background-color:#469165;
     border-radius: 5px;
-    padding: 20px 20px ;
-    font-size:20px ;
-    font-weight:400;
-    margin: 10px ;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
 }
 .btn-4 {
     display: inline-flex;
@@ -138,8 +138,8 @@ nav li a:hover {
     border: 1px solid white;
     background: none;
     border-radius: 5px;
-    padding: 20px 20px ;
-    font-size:20px ;
+    padding: 20px 20px;
+    font-size:20px;
     font-weight:400;
 }
  
@@ -192,4 +192,61 @@ nav li a:hover {
     font-weight: 500;
     color:#627382 ;
     padding: 12px 10px;
+}
+
+/* brain-section */
+.brain-section {
+    padding: 150px;
+}
+.brain-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+     
+}
+.brain-image img {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 8px;
+    display: block;
+    height: auto;
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.15); */
+}
+
+.brain-content {
+    max-width: 700px;
+    padding: 0px 100px 0px 0px;
+    line-height: 50px;
+}
+
+.brain-content h2 {
+    font-size:48px;
+    font-weight: bold;
+    color: #001931;
+    padding: 7px 0px;
+}
+
+.sub-title-1 {
+    color:#469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.description {
+    color:#627382;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 20px 0px 20px;
+}
+
+ul li {
+    list-style: none;
+     
+}
+
+li img {
+     padding: 0px 15px 0px 0px;
 }

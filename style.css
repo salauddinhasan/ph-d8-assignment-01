@@ -48,7 +48,7 @@ nav li a:hover {
     color: #FFFFFF;
     background-color:#469165;
     padding: 15px 50px;
-    font-size: 14px;
+    font-size: 18px;
     gap: 20px;
     border-radius: 5px;
     border: none;
@@ -58,3 +58,84 @@ nav li a:hover {
 .btn:hover {
     background-color:#3a7a55;
 }
+
+/* banner-section */
+.banner-section {
+    background-image: url(assets/hero-bg.png);
+    border-radius: 4px;
+    padding: 100px 80px;
+}
+.banner-container {
+    max-width: 770px;
+    /*padding: 100px 80px;*/
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    /* background-color: tomato; */
+}
+
+.banner-title {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    opacity: 90%;
+    color: white;
+    
+}
+
+.color-blue {
+    color:#30B868 ;
+}
+.banner-content p {
+    font-size: 19px;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+    line-height: 24px;
+    padding:12px 5px 20px;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    color: #469165;
+    background-color:#FFFFFF ;
+    border-radius: 50px;
+    padding: 10px 20px ;
+    font-size:20px ;
+    font-weight:500;
+    margin: 10px 40px;
+}
+.btn-2:hover {
+    background-color: #80c8a0;
+}
+.info-arrow {
+    background-color:  #469165;
+    border-radius: 50px;
+}
+.btn-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color:#469165 ;
+    border-radius: 5px;
+    padding: 20px 20px ;
+    font-size:20px ;
+    font-weight:400;
+    margin: 10px ;
+}
+.btn-4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    border: 1px solid white;
+    background: none;
+    border-radius: 5px;
+    padding: 20px 20px ;
+    font-size:20px ;
+    font-weight:400;
+}
+ 

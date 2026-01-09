@@ -250,3 +250,39 @@ ul li {
 li img {
      padding: 0px 15px 0px 0px;
 }
+
+
+/* challenge- section */
+
+.challenge-section {
+     padding-bottom: 80px;
+}
+.challenge-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f6f2;
+    padding: 90px;
+    border-radius: 8px;
+    line-height: 60px;
+
+}
+.challenge-title h2{
+    font-size:40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.sub-title-2 {
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 25px;
+    color: #627382;
+}
+.challenge-content p {
+    font-size: 16px;
+    color: #627382;
+}

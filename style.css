@@ -54,10 +54,11 @@ nav li a:hover {
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 .btn:hover {
     background-color:#3a7a55;
+    transform: translateY(-3px);
 }
 
 /* banner-section */

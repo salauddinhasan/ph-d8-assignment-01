@@ -331,3 +331,156 @@ li img {
     border-top: 1px solid rgba(255,255,255,0.2);
     margin: 20px 0px;
 }
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .header-section {
+        padding: 40px 0px 50px;
+    }
+    .btn {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .btn-4 {
+        margin-top: 20px;
+    }
+    .logo  {
+        text-align: center;
+    }
+    .banner-title h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        padding: 20px 0px;
+        line-height: 50px;
+    }
+    .btn-2 span {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .banner-content p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .header-section, 
+    .brain-container,
+    .notes-cards 
+    {
+     display: grid;
+     grid-template-columns:repeat( 1, 1fr);
+    }
+    .brain-section ,
+    .brain-content,
+    .banner-section,
+    .challenge-container,
+    .footer-section ,
+    .copy
+    {
+        padding: 0px;
+         
+    }
+    .btn-3, .btn-4{
+        font-size: 1rem;
+    }
+    .challenge-container {
+        text-align: center;
+    }
+    .challenge-container h2,
+    .brain-content h2,
+    .notes-title h2{
+        font-size: 2.2rem;
+        line-height: 50px;
+        padding: 35px 5px  20px;
+    }
+    .sub-title-2 {
+        padding: 7px;
+    }
+    .brain-content h2,
+    .sub-title-1,
+    .description {
+        text-align: center;
+    }
+    .brain-content ul li {
+        font-size: 12px;
+    }
+    .footer-contact {
+        flex-direction: column;
+        line-height: 40px;
+        text-align: center;
+    }
+    .copy {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .social-links p {
+        padding: 15px 0px;
+    }
+    .challenge-content p {
+        line-height: 40px;
+        padding: 15px 0px 25px;
+    }
+    ul li {
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+}
+
+/* responsive tablet */
+@media screen and (min-width:577px) and (max-width:768px) {
+    .header-section {
+        padding: 15px;
+    }
+    .header-section ul li {
+        font-size: 1rem;
+    }
+    .btn {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 10px;
+    }
+    
+    /* banner section */
+    .banner-section,
+    .brain-section {
+        padding: 0px;
+    }
+    .banner-title h1 {
+        font-size: 3.5rem;
+        padding: 20px 0px;
+    }
+    .banner-content p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    /* notes section */
+    .notes-title h2,
+    .brain-content h2 {
+        font-size: 2.5rem;
+    }
+    .notes-title p {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .notes-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* brain section */
+    .brain-section {
+        padding: 60px 0px;
+    }
+    .brain-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .brain-content{
+        padding: 0px;
+    }
+    /* .challenge section */
+    .challenge-container,
+    .footer-section {
+        padding: 50px 0px;
+    }
+    /* footer section  */
+}
+ 
+ 
